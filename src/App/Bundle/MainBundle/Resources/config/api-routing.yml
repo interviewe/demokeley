@@ -1,0 +1,9 @@
+keley_api_users:
+    type: rest
+    resource: "@AppMainBundle/Controller/UserController.php"
+    name_prefix:  keley_users_
+
+keley_api_groups:
+    type: rest
+    resource: "@AppMainBundle/Controller/GroupController.php"
+    name_prefix:  keley_groups_
